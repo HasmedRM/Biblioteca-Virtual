@@ -70,11 +70,11 @@ const Login = () => {
           </div>
           
           <div id="forgot_password">
-            <Link to="/recuperar-senha">Esqueci minha senha</Link> {/* Atualizado para corresponder à rota */}
+            <Link to="/recuperar-senha">Esqueci minha senha</Link>
           </div>
 
           <div id="create-account">
-            <Link to="/cadastro">Criar conta agora</Link> {/* Usar Link para navegação */}
+            <Link to="/cadastro">Criar conta agora</Link>
           </div>
         </div>
 
