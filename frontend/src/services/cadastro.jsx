@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // Importar o useNavigate
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./css/cadastro.css";
 
@@ -9,7 +9,7 @@ const Cadastro = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const navigate = useNavigate(); // Inicializar o hook useNavigate
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -47,7 +47,7 @@ const Cadastro = () => {
             <button
               id="signin"
               className="btn btn-primary"
-              onClick={() => navigate("/login")} // Usar o navigate para ir para a tela de login
+              onClick={() => navigate("/login")}
             >
               Login
             </button>
