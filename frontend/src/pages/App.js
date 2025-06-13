@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Principal from '../services/principal'; // Ajuste o caminho se necessário
-import Login from '../services/login'; // Ajuste o caminho se necessário
-import Cadastro from '../services/cadastro'; // Ajuste o caminho se necessário
+import Principal from '../services/principal';
+import Login from '../services/login'; 
+import Cadastro from '../services/cadastro'; 
 import Configuracoes from '../services/config';
 import Acervo from '../services/acervo';
 import RecoverPassword from '../services/recuperar';
@@ -21,7 +21,6 @@ const App = () => {
         <Route path="/recuperar-senha" element={<RecoverPassword />} />
         <Route path="/livro/:id" element={<BookDetails />} />
         <Route path="/apilivro" element={<CadastroLivro />} />
-        {/* Adicione outras rotas conforme necessário */}
       </Routes>
     </Router>
 
